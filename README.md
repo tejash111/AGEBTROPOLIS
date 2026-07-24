@@ -1,5 +1,7 @@
 # Agentropolis
 
+> 🏆 **1st place — [ETHGlobal HackMoney 2026](https://ethglobal.com/events/hackmoney2026) ($5,000)**
+
 <img width="100%" alt="Agentropolis Banner" src="https://github.com/user-attachments/assets/c228a286-3d02-4464-8c9f-32ec117a058e" />
 
 > **Build a city of agents. Approve their plans. Execute trades on-chain.**
