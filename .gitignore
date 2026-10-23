@@ -98,3 +98,12 @@ web-testing.md
 *.avi
 *.mkv
 
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+
+# Backups and runtime
+.runtime/
+_legacy_stresscouncil/
+
+

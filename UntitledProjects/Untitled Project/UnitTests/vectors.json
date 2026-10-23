@@ -1,0 +1,79 @@
+{
+  "snapshot": {
+    "version": 2,
+    "autoPaise": "2000000",
+    "fundAPaise": "4000000",
+    "fundBPaise": "4000000",
+    "cashPaise": "0",
+    "nonce": "0"
+  },
+  "policy": {
+    "version": 2,
+    "ownerKeyHash": "0x98313534b87791473d73aec8430ff2b33d8f85202cf3ad4552b5a9d6c855e9c0",
+    "bankingCapBps": "2500",
+    "lossCapPaise": "900000",
+    "saleBudgetPaise": "2500000"
+  },
+  "intent": {
+    "version": 2,
+    "chainId": "31337",
+    "executor": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+    "ownerKeyHash": "0x98313534b87791473d73aec8430ff2b33d8f85202cf3ad4552b5a9d6c855e9c0",
+    "snapshotHash": "0x6c1fb2cb6d73ed0bcadedb08b5a14181a67ea703797e170c9c15fbd04a99048f",
+    "policyHash": "0x100d372d20bf9661600d77ed6ed7d011e16b1e1649cac1091d11632722e6f1fe",
+    "saleAPaise": "2200000",
+    "saleBPaise": "0",
+    "bankingBps": "2000",
+    "itBps": "1000",
+    "autoBps": "500",
+    "bankingCapBps": "2500",
+    "lossCapPaise": "900000",
+    "saleBudgetPaise": "2500000",
+    "nonce": "0",
+    "deadlineSeconds": "1792770020"
+  },
+  "decision": {
+    "version": 2,
+    "intentHash": "0x46d8102231c3fb79fe9474c19de48a5fabf810e17556b442eb5e50e0f64b5d3f",
+    "policyHash": "0x100d372d20bf9661600d77ed6ed7d011e16b1e1649cac1091d11632722e6f1fe",
+    "approved": true,
+    "maxSalePaise": "2200000",
+    "expiresAtSeconds": "1792770020",
+    "evaluator": "0x15ED0AFBc26F5Dc55F48cDF6600678e5aE867dbB"
+  },
+  "approval": {
+    "version": 2,
+    "intentHash": "0x46d8102231c3fb79fe9474c19de48a5fabf810e17556b442eb5e50e0f64b5d3f",
+    "riskDecisionHash": "0xa03b2b306dbe44e8350569f8b4b8a8424c4cddf6c0ea76221d800bd222498175",
+    "ownerKeyHash": "0x98313534b87791473d73aec8430ff2b33d8f85202cf3ad4552b5a9d6c855e9c0",
+    "nonce": "0",
+    "deadlineSeconds": "1792770020"
+  },
+  "hashes": {
+    "PortfolioSnapshot": "0x6c1fb2cb6d73ed0bcadedb08b5a14181a67ea703797e170c9c15fbd04a99048f",
+    "UserPolicy": "0x100d372d20bf9661600d77ed6ed7d011e16b1e1649cac1091d11632722e6f1fe",
+    "TradeIntent": "0x46d8102231c3fb79fe9474c19de48a5fabf810e17556b442eb5e50e0f64b5d3f",
+    "RiskDecision": "0xa03b2b306dbe44e8350569f8b4b8a8424c4cddf6c0ea76221d800bd222498175",
+    "UserApproval": "0x500996b9a7ca7be24fcf011dba5b7ed1efcfb47a02437520891585de5478c170"
+  },
+  "digests": {
+    "RiskDecision": "0x1b11e34c6b7dcec24ffed88a7a805436e1413ec5758525dc66b48748ab465eba",
+    "UserApproval": "0x701a8494b30dc50e538b8296baf1c4c6d56445b4581d8b4a8b766a209d34eeae"
+  },
+  "userSignature": {
+    "approval": {
+      "version": 2,
+      "intentHash": "0x46d8102231c3fb79fe9474c19de48a5fabf810e17556b442eb5e50e0f64b5d3f",
+      "riskDecisionHash": "0xa03b2b306dbe44e8350569f8b4b8a8424c4cddf6c0ea76221d800bd222498175",
+      "ownerKeyHash": "0x98313534b87791473d73aec8430ff2b33d8f85202cf3ad4552b5a9d6c855e9c0",
+      "nonce": "0",
+      "deadlineSeconds": "1792770020"
+    },
+    "r": "0x04d79a070b0c44ea34c38483a5a83d12ecc1a4e451e1fd079bc819be1accd053",
+    "s": "0x746df60d38d5fb7d67458450459302531d26f26985edaa9eaf42918a34ddf167"
+  },
+  "publicKey": {
+    "x": "0x71d52f0fdf61f31dc576dd52f6988de51b4b0b4fb61ab0007242d15bb2e9c940",
+    "y": "0x73c982f8da909480cfe97a18ac06e9c34990fe36a30f0556f2ce53b3d2f26070"
+  }
+}
